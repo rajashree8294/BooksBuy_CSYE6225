@@ -3,10 +3,11 @@
 ## TECH STACK
 
 - Angular 9, NodeJS, MySQL, Sequelize
-- Amazon Web Services (AWS) - EC2, S3, Lambda Function, Route53, SNS, SES, CloudDeploy, CodeWatch 
+- Amazon Web Services (AWS) - EC2, S3, Lambda Function,RDS, Route53, SNS, SES, Load Balancer, Autoscaling, CloudDeploy, CodeWatch 
 - Continuous Integration and Continuous Deployment (CI/CD) - CircleCI 
-- Infrastructure as a Code (IaaC) - Terraform
-- Session management - JWT Token at the server side, Session Storage on the Frontend.
+- Infrastructure as a Code (IaaC) - Terraform / Packer
+- Session management - JWT Token at the server side, Session Storage on the Frontend
+- Security - Bcrypt password hashing with salt, SSL Encryption for data-in-rest and data-in-transit
 
 ## FUNCTIONAL FEATURES:
 - SIGN UP/LOGIN : Users can create account in the BooksBuy. Users credentials are secured using BCrypt password hashing scheme with Salt
@@ -22,7 +23,11 @@
 
 - Built Amazon Machine Image using Packer
 
+## DEMO
 
 Click on the image below to start demo of an Application
 
 [![Watch the video](https://img.youtube.com/vi/e_YWE55_QaM/0.jpg)](https://youtu.be/e_YWE55_QaM)
+
+## Author
+### Rajashree Joshi

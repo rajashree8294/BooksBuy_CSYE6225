@@ -16,6 +16,6 @@ Functional Features:
 - Built Amazon Machine Image using Packer
 
 
-Click on the image below for the demo of an Application
+Click on the image below to start demo of an Application
 
 [![Watch the video](https://img.youtube.com/vi/e_YWE55_QaM/0.jpg)](https://youtu.be/e_YWE55_QaM)

@@ -2,11 +2,11 @@
 
 ## TECH STACK
 
-### Angular 9, NodeJS, MySQL, Sequelize
-### Amazon Web Services (AWS) - EC2, S3, Lambda Function, Route53, SNS, SES, CloudDeploy, CodeWatch 
-### Continuous Integration and Continuous Deployment (CI/CD) - CircleCI 
-### Infrastructure as a Code (IaaC) - Terraform
-### Session management - JWT Token at the server side, Session Storage on the Frontend.
+- Angular 9, NodeJS, MySQL, Sequelize
+- Amazon Web Services (AWS) - EC2, S3, Lambda Function, Route53, SNS, SES, CloudDeploy, CodeWatch 
+- Continuous Integration and Continuous Deployment (CI/CD) - CircleCI 
+- Infrastructure as a Code (IaaC) - Terraform
+- Session management - JWT Token at the server side, Session Storage on the Frontend.
 
 ## FUNCTIONAL FEATURES:
 - SIGN UP/LOGIN : Users can create account in the BooksBuy. Users credentials are secured using BCrypt password hashing scheme with Salt

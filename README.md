@@ -1,5 +1,5 @@
 # BooksBuy_CSYE6225
-BooksBuy is a Cloud-Native Application built using Angular 9, NodeJS, MySQL, Sequelize.Deployed on Amazon Web Services using EC2, S3, Lambda Function, SNS, SES, CloudDeploy, CodeWatch services. Implemented Continuous Integration and Continuous Deployment (CI/CD) using CircleCI workflows.Implemented Infrastructure as a Code using Terraform. Session management using JWT Token at the server side and Session Storage on the Front End side of an application.
+BooksBuy is a Cloud-Native Application built using Angular 9, NodeJS, MySQL, Sequelize.Deployed on Amazon Web Services using EC2, S3, Lambda Function, Route53, SNS, SES, CloudDeploy, CodeWatch services. Implemented Continuous Integration and Continuous Deployment (CI/CD) using CircleCI workflows.Implemented Infrastructure as a Code using Terraform. Session management using JWT Token at the server side and Session Storage on the Front End side of an application.
 
 Functional Features:
 - SIGN UP/LOGIN : Users can create account in the BooksBuy. Users credentials are secured using BCrypt password hashing scheme with Salt
@@ -10,5 +10,6 @@ Functional Features:
 
 - FORGET PASSWOR: Clicking on FORGET PASSWORD will make RESET PASSWORD option available. The reset password link is shared with the user via Email. This feature is                   implemented using Function As A Service (FAAS) Lambda Function of AWS. Simple Notification Service (SNS) and Simple Email Service (SES) are                         integrated to complete the delivery of an email to User
 
+Click on the image below for the demo of an Application
 
 [![Watch the video](https://img.youtube.com/vi/e_YWE55_QaM/0.jpg)](https://youtu.be/e_YWE55_QaM)

@@ -8,7 +8,13 @@ Functional Features:
 
 - UPLOAD BOOK/DELETE/EDIT: A book can be uploaded with multiple Authors and Images. A Seller can upload multiple books. Books which are publishing in future will be                            listed on the metioned publish date not before that. Similar to upload, Books can be deleted or edited. Only Seller who uploaded the book                            can perform these actions. Any changes to the book will be reflected to the Book added in cart by a buyer.This feature is implemented                                using Amazon S3 bucket for storing uploaded book images
 
-- FORGET PASSWOR: Clicking on FORGET PASSWORD will make RESET PASSWORD option available. The reset password link is shared with the user via Email. This feature is                   implemented using Function As A Service (FAAS) Lambda Function of AWS. Simple Notification Service (SNS) and Simple Email Service (SES) are                         integrated to complete the delivery of an email to User
+- FORGET PASSWORD: Clicking on FORGET PASSWORD will make RESET PASSWORD option available. The reset password link is shared with the user via Email. This feature is                    implemented using Function As A Service (FAAS) Lambda Function of AWS. Simple Notification Service (SNS) and Simple Email Service (SES) are                          integrated to complete the delivery of an email to User
+
+# Infrastructure Management on AWS
+- Used Terraform as a Infrastructure as Code to provision and manage cloud infrastructure
+
+- Built Amazon Machine Image using Packer
+
 
 Click on the image below for the demo of an Application
 
